@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox width="100%">
+    <vbox width="200">
+        <section-header text="Options" />
+        <group layout="horizontal">
+            <checkbox text="Options Visible" style="color:black;" id="options-visible" onchange="tvMain.visible = this.selected" />
+            <!-- <checkbox text="Hitbox Visible" style="color:black;" id="options-hitbox"/> -->
+        </group>
+    </vbox>
+
+    <spacer height="10" />
+
+    <hbox width="100%">
+        <tabview id="tvMain" closable="false" width="400" visible="false" styleName="collapsible-labels">
+            <!-- These two boxes need to stay in the tabView no matter what -->
+            <box text="Spawn Entities" height="100" id="stage-spawn-buttons" icon="haxeui-core/styles/default/haxeui_tiny.png">
+                <!--TODO: Make a function to add more enemies dynamically-->
+                
+            </box>
+
+            <box text="Debug" icon="haxeui-core/styles/default/haxeui_tiny.png">
+                <textarea width="350" height="400" id="label-debug" disabled="true" text="" />
+            </box>
+
+            <!--Rest of the entities...-->
+
+        </tabview>
+    </hbox>
+</vbox>

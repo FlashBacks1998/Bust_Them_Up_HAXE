@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<box text="Default" icon="haxeui-core/styles/default/haxeui_tiny.png">
+    <vbox>
+        <grid>
+            <label text="Position X:" verticalAlign="center" />
+            <textfield width='75' id="input-default-positionx"/>
+            
+            <label text="Position Y:" verticalAlign="center" />
+            <textfield width='75' id="input-default-positiony"/>
+            
+            <label text="Position Z:" verticalAlign="center" />
+            <textfield width='75' id="input-default-positionz"/>
+            
+            <label text="Velocity X:" verticalAlign="center" />
+            <textfield width='75' id="input-default-velocityx"/>
+            
+            <label text="Velocity Y:" verticalAlign="center" />
+            <textfield width='75' id="input-default-velocityy"/>
+            
+            <label text="Velocity Z:" verticalAlign="center" />
+            <textfield width='75' id="input-default-velocityz"/>
+        </grid>
+
+        <grid>
+            <label text="Health:" verticalAlign="center" />
+            <textfield width='75' id="input-default-health"/>
+        </grid>
+    </vbox>
+</box>

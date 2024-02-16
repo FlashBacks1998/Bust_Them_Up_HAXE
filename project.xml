@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Haxebattle" package="com.sample.haxebattle" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Haxebattle"  preloader="Preloader" />
+	
+    <source path="Source/haxe" />
+    <source path="Source/cpp" />
+	
+    <haxelib name="openfl" />
+    <haxelib name="actuate" />
+
+    <haxelib name="haxeui-core" /> 
+    <haxelib name="haxeui-openfl"/>
+
+	<!--SWF Assets-->	
+	<library path="Assets/Movies/Intro - NoSound.swf" id="swf-Intro"/>
+	<library path="Assets/Movies/MainMenuReal.swf" id="swf-MainMenuReal" />
+	<library path="Assets/Movies/MissionSelect.swf" id="swf-MissionSelect"  />
+	<library path="Assets/Movies/LevelSelectBack.swf" id="swf-LevelSelectBack"  />
+	<library path="Assets/Movies/HeadsUpDisplay.swf" id="swf-HeadsUpDisplay"  /> 
+	<library path="Assets/Movies/sb-NewDojo.swf" id="swf-Dojo"  />
+	
+	<library path="Assets/Movies/DummySprites.swf" id="swf-DummySprites"  />
+	<library path="Assets/Movies/PoliceSprites.swf" id="swf-PoliceSprites"  />
+	<library path="Assets/Movies/BaldySprites.swf" id="swf-BaldySprites"  />
+
+	<!--Sound Assets-->
+	<assets path="Assets" rename="assets" exclude="*.swf">
+		<music path="Sounds/IntroThemeEdit.mp3" id="musicIntro" if="flash" />
+		<music path="Sounds/IntroThemeEdit.ogg" id="musicIntro" if="windows" />
+	</assets>
+	
+</project>

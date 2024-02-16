@@ -1,0 +1,3 @@
+* 02/12/2024 The MissionSelect menu the files offsets are wrong
+* 02/16/2024 After a while the timers to the movieclips that control the framerate independently from the stage framerate (in MovieClipUtil) slow down if theres too many
+    -FIXED, it was the `drawDebug` in the entity, apparently drawing boxes is more taxing than drawing fucking movieclips?
