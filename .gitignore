@@ -1,0 +1,8 @@
+# Ignore .log files
+*.log
+
+# Ignore upload.bat
+upload.bat
+
+# Ignore everything in the Export/ directory, including the directory itself
+Export/
